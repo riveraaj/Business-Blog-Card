@@ -29,7 +29,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/riveraaj/Business-Blog-Card/main/assets/images/Screenshot%202024-05-16%20at%2000-04-58%20Business%20Blog%20Card.png)
 
-- You can see the page in the following link: https://riveraaj.github.io/Simple-Homepage/
+- You can see the page in the following link: https://riveraaj.github.io/Business-Blog-Card
 - In this small project I was able to improve good practices in CSS3, layout and structure in HTML5.
 
 ### Built With
