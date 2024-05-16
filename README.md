@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://riveraaj.github.io/Alarado-Homepage">
+    <a href="https://github.com/riveraaj/Business-Blog-Card">
       Solution
     </a>
     <span> | </span>
