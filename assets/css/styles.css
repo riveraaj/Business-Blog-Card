@@ -1,0 +1,172 @@
+/* ********** Custom Properties ********** */
+:root {
+    --tittle-font: "Lato", sans-serif;
+    --primary-font: 'Poppins', sans-serif;
+    --soft-white: #F2F5F9;
+    --white: #FFFFFF;
+    --black: #111729;
+    --gray-blue: #677489;
+}
+
+/* ********** Reset ********** */
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--soft-white);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* ********** Components ********** */
+/* ***** Card ***** */
+.card{
+    width: 100%;
+    max-width: 26.125rem;
+    margin: auto;
+    position: relative;
+    background-color: var(--white);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    .card__header{
+        position: relative;
+        width: inherit;
+        height: auto;
+
+        figure{
+            position: relative;
+            width: inherit;
+            height: inherit;
+            margin: 0;
+
+            img {
+                width: inherit;
+                height: inherit;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+            }
+            
+            .card__header__overlay {
+                width: inherit;
+                position: absolute;
+                top: 75%;
+                left: 0;
+            }
+        }
+    }
+
+    .card__content{
+        width: inherit;
+        padding: 0rem 2.5rem;
+        background-color: var(--white);
+
+        h3{
+            margin: 0rem;
+        }
+
+        p br{
+            margin-bottom: .3em;
+        }
+    }
+
+    .card__footer{
+        width: inherit;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 1.3rem 2.5rem;
+        border-top: solid 2px var(--soft-white);
+
+        > *{
+            height: 5rem;
+        }
+
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3.5rem;
+            height: 3.5rem;
+            margin: 0;
+            background-color: var(--soft-white);
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+
+            img {
+                width: 85%;
+                height: 85%;
+                margin: 0;
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+            } 
+        }
+
+        .card__footer__actor{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 1rem;
+
+            h4{
+                margin: 0;
+                margin-bottom: .2rem;
+            }
+        }
+    }
+}
+
+/* ********** Utilities ********** */
+.tittle{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: var(--primary-font);
+}
+
+.normal-font{
+    font-size: 1em;
+    font-family: var(--tittle-font);
+}
+
+/* ********** Site Styles ********** */
+main{
+    min-height: inherit;
+    display: flex;
+}
+
+.card{
+    color: var(--gray-blue);
+
+    h3,h4{
+        color: var(--black);
+    }
+
+    span{
+        font-weight: 600;
+        font-size: .8rem;
+    }
+}
