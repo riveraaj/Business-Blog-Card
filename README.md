@@ -10,7 +10,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenge/27">
+    <a href="https://devchallenges.io/challenge/business-blog-card">
       Challenge
     </a>
   </h3>
